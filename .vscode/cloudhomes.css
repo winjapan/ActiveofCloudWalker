@@ -1,0 +1,64 @@
+body{
+	background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/IMG_1312.cloud.jpg");
+margin: auto;
+min-height:30;
+}
+.menustyle{
+	background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/CloudWalkerSince1992.jpg");
+	background-size: cover;
+border: 1px;
+width: 1450px;
+height: 300px;
+	}
+	ul li{
+		display: table-cell;
+		width: 18%;
+	}
+
+	.space{
+	
+	text-align: center;
+	}
+
+	h2.info{
+		position: absolute;
+		bottom: 0;
+		
+		width: 100%;
+		height: 100px;
+		text-align: center;
+	}
+
+	.space2{
+		margin-bottom: 50%;
+	}
+.box_srcollber{
+	position: absolute;
+	text-align: center;
+	bottom: 20px;
+	height: 40px;
+	left: 637px;
+	border: 1px solid #ffffff;
+	/* padding: 5px; */
+	/* width: 10; */
+	font-size: 14px;
+	background-color: white;
+	color: #000;
+}
+
+	.space3{
+		margin-bottom: 30px;
+	}
+
+	footer{
+		position: absolute;
+		background-color: grey;
+		bottom: -100%;
+		height: 100px;
+		width: 100%;
+		left: 10px;
+	}
+	h4.copy{
+		background-color: grey;
+		text-align: center;
+	}
