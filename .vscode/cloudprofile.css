@@ -11,8 +11,10 @@ min-height:30;
 .menustyle{
 	background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/CloudWalkerSince1992.jpg");
 	background-size: cover;
+
 border: 1px;
-width: 1450px;
+
+width: 1440px;
 height: 400px;
 	}
 	ul li{
@@ -24,7 +26,7 @@ height: 400px;
 		background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/CloudWalkerintroduction7.png");
 		position: absolute;
 		top: 750px;
-		left: 50px;
+		left: 200px;
 		width: 500px;
 		height: 280px;
 	}
@@ -33,86 +35,95 @@ height: 400px;
 		border: 10px snow;
 		background-color: snow;
 		position: absolute;
-		top: -400px;
-		width: 1500px;
+		top: -500px;
+		width: 1440px;
+		font-size: 30px;
 		text-align: center;
 	}
 
 	.b1{
 		position: absolute;
 		top: -250px;
-		left: 650px;
+		left: 750px;
 		font-size:20px;
 		text-decoration: underline skyblue;
 	}
 
 	.b2{
 		position: absolute;
-		top: -170px;
-		left:650px;
+		top: -200px;
+		left:750px;
 		width: 200px;
 		font-size: 20px;
+		font-family: serif;
 	}
 
 	.b3{
 		position: absolute;
-		top: -130px;
-		left: 650px;
+		top: -150px;
+		left: 750px;
 		width: 500px;
 		font-size: 20px;
+		font-family: serif;
 	}
 	.b4{
 		position: absolute;
-		top: -35px;
-		left: 650px;
+		top: -60px;
+		left: 750px;
 		width: 500px;
 		font-size: 20px;
+		font-family: serif;
 	}
 	.b5{
 		position: absolute;
-		top: 55px;
-		left: 650px;
+		top: 30px;
+		left: 750px;
 		width: 500px;
 		font-size: 20px;
+		font-family: serif;
 	}
 	.b6{
 		position: absolute;
-		top: 250px;
-		left: 50px;
+		top: 150px;
+		left: 150px;
 		width: 1200px;
 		font-size: 25px;
 		text-align: center;
+		font-family: serif;
 	}
 	.b7{
 		position: absolute;
-		top: 300px;
-		left: 60px;
+		top: 200px;
+		left:130px;
 		width: 1200px;
 		font-size: 25px;
 		text-align: center;
+		font-family: serif;
 	}
 	.b8{
 		position: absolute;
-		top: 350px;
-		left: 50px;
+		top: 250px;
+		left: 25px;
 		width: 1200px;
 		font-size: 25px;
 		text-align: center;
+		font-family: serif;
 	}
 	.b9{
 		position: absolute;
-		top: 450px;
-		left: 50px;
+		top: 350px;
+		left: 100px;
 		width: 1200px;
 		font-size: 25px;
 		font-weight: bold;
 		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
 	}
 
 	.messages{
 		position: absolute;
 		top: 550px;
-		left: 550px;
+		width: 1440px;
 		background-color: white;
 		font-size: 25px;
 		text-align: center;
@@ -120,11 +131,21 @@ height: 400px;
 
 	.massages2{
 		position: absolute;
-		top: 700px;
-		left: 70px;
+		top: 750px;
+		left: 130px;
 		width: 1200px;
 		font-size: 25px;
+		font-family: serif;
+	}
+
+	.massages3{
+		position: absolute;
+		top: 1050px;
+		left: 200px;
+		width: 1000px;
+		font-size: 30px;
 		text-align: center;
+		font-weight: bold;
 	}
 	.cloudSpace{
 		margin-bottom: 1000px;
@@ -132,17 +153,15 @@ height: 400px;
 		top: 900px;
 	}
 
-	
 	footer{
 		position: absolute;
 		background-color: grey;
 		bottom: -1500px;
 		left: 0px;
-		width: 101%;
+		width: 1440px;
 		height: 90px;
 	}
 	h4.copy{
 		background-color: grey;
 		text-align: center;
-		
 	}

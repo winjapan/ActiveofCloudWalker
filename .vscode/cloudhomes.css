@@ -1,3 +1,7 @@
+html{
+	margin-bottom: 0%;
+	display: table-cell;
+}
 body{
 	background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/IMG_1312.cloud.jpg");
 margin: auto;
@@ -7,7 +11,7 @@ min-height:30;
 	background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/CloudWalkerSince1992.jpg");
 	background-size: cover;
 border: 1px;
-width: 1450px;
+width: 1440px;
 height: 300px;
 	}
 	ul li{
@@ -15,48 +19,117 @@ height: 300px;
 		width: 18%;
 	}
 
-	.space{
-	
+	.space1{
+	position: absolute;
+	top: 300px;
+	left: 450px;
 	text-align: center;
+	font-size: 20px;
+	font-family: serif;
+	font-weight: bold;
 	}
 
-	h2.info{
+	.space2{
 		position: absolute;
-		bottom: 0;
-		
-		width: 100%;
-		height: 100px;
 		text-align: center;
+		top: 350px;
+		left: 410px;
+		font-size: 20px;
+		font-family: serif;
+		font-weight: bold;
+		}
+		.space3{
+			position: absolute;
+			top: 400px;
+			text-align: center;
+			left: 300px;
+			font-size: 20px;
+			font-family: serif;
+			font-weight: bold;
+			}
+			.space4{
+				position: absolute;
+				top: 450px;
+				text-align: center;
+				left: 300px;
+	font-size: 30px;
+	font-family: serif;
+	font-weight: bold;
+				}
+
+	.info{
+		position: absolute;
+		top: 600px;
+		left: 670px;
+		text-align: center;
+		font-size: 18px;
+		font-weight: bold;
+		font-family: serif;
 	}
+
+	.info2{
+		position: absolute;
+		top: 50px;
+		left: -100px;
+		overflow: scroll;
+		width: 150px;
+		height: 90px;
+		text-align: center;
+		border: #ffffff solid;
+		background-color: white;
+	}
+
 
 	.space2{
 		margin-bottom: 50%;
 	}
-.box_srcollber{
-	position: absolute;
-	text-align: center;
-	bottom: 20px;
-	height: 40px;
-	left: 637px;
-	border: 1px solid #ffffff;
-	/* padding: 5px; */
-	/* width: 10; */
-	font-size: 14px;
-	background-color: white;
-	color: #000;
-}
+
+	.sns{
+		position: absolute;
+		top: 1800px;
+		left: 670px;
+		font-size: 30px;
+	}
+
+	.twitter{
+		background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/Twitter_Logo_Blue.svg");
+		width: 150px;
+	 height: 150px;
+
+	 position: absolute;
+	 top: 1900px;
+	 left: 200px;
+	}
+
+	.youtube{
+		background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/youtube_social_circle_white.png");
+		width: 64px;
+	 height: 64px;
+
+	 position: absolute;
+	 top: 1950px;
+	 left: 700px;
+	}
+
+	.ameba{
+		position: absolute;
+	 top: 1950px;
+	 left: 1150px;
+	}
 
 	.space3{
 		margin-bottom: 30px;
 	}
 
+	
+
 	footer{
 		position: absolute;
 		background-color: grey;
-		bottom: -100%;
+		bottom: -1500px;
 		height: 100px;
-		width: 100%;
-		left: 10px;
+		width: 1440px;
+		left: 0px;
 	}
 	h4.copy{
 		background-color: grey;
