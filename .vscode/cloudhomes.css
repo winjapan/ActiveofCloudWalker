@@ -16,8 +16,34 @@ height: 300px;
 	}
 	ul li{
 		display: table-cell;
-		width: 18%;
+		width: 25%;
+		transform: translateX(-20px);
 	}
+a[target=_blankt]{
+		position: absolute;
+		top: 165px;
+		left: 1150px;
+		background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/Twitter_Logo_Blue.svg");
+		width: 100px;
+	 height: 100px;
+
+	}
+a[target=_blanky]{
+	position: absolute;
+	top: 180px;
+	left: 1250px;
+		background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/youtube_social_circle_white.png");
+		width: 64px;
+	 height: 64px;
+	}
+	.amebab{
+		position: absolute;
+		top: 270px;
+		left: 1350px;
+		font-size: 12px;
+			
+	}
+
 
 	.space1{
 	position: absolute;
@@ -70,9 +96,9 @@ height: 300px;
 	.info2{
 		position: absolute;
 		top: 50px;
-		left: -100px;
+		left: -80px;
 		overflow: scroll;
-		width: 150px;
+		width: 250px;
 		height: 90px;
 		text-align: center;
 		border: #ffffff solid;
@@ -87,11 +113,34 @@ height: 300px;
 	.sns{
 		position: absolute;
 		top: 1800px;
-		left: 670px;
+		left: 665px;
 		font-size: 30px;
 	}
+	.amabalink{
+		position: absolute;
+		top: 800px;
+		left: 480px;
+	}
 
-	.twitter{
+	.game{
+		position: absolute;
+		top: 1400px;
+		left: 350px;
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.game2{
+		position: absolute;
+		top: 1600px;
+		left: 630px;
+		text-align: center;
+		font-size: 20px;
+		font-family: serif;
+		font-weight: bold;
+	}
+
+	a[target=_blank1]{
 		background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/Twitter_Logo_Blue.svg");
 		width: 150px;
 	 height: 150px;
@@ -101,7 +150,7 @@ height: 300px;
 	 left: 200px;
 	}
 
-	.youtube{
+	a[target=_blank2]{
 		background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/youtube_social_circle_white.png");
 		width: 64px;
 	 height: 64px;
@@ -113,7 +162,7 @@ height: 300px;
 
 	.ameba{
 		position: absolute;
-	 top: 1950px;
+	 top: 1970px;
 	 left: 1150px;
 	}
 

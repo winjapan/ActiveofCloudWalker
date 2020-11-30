@@ -13,11 +13,37 @@ min-height:30;
 border: 1px;
 
 width: 1440px;
-height: 400px;
+height: 300px;
 	}
 	ul li{
 		display: table-cell;
-		width: 18%;
+		width: 25%;
+		transform: translateX(-20px);
+	}
+
+	a[target=_blankt]{
+		position: absolute;
+		top: 165px;
+		left: 1150px;
+		background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/Twitter_Logo_Blue.svg");
+		width: 100px;
+	 height: 100px;
+
+	}
+a[target=_blanky]{
+	position: absolute;
+	top: 180px;
+	left: 1250px;
+		background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/youtube_social_circle_white.png");
+		width: 64px;
+	 height: 64px;
+	}
+	.amebab{
+		position: absolute;
+		top: 270px;
+		left: 1350px;
+		font-size: 12px;
+			
 	}
 
 .contact{
@@ -38,10 +64,10 @@ height: 400px;
   text-align: center;
 	color: red;
 	background-color: yellow;
-	border: ２px solid white;
-	width: 500px;
+	border: 0px solid white;
+	width: 450px;
 	border-radius: 100px;
-transform: translateX(475px);
+transform: translateX(500px);
 	font-size: 30px;
 	font-weight: bold;
 }
@@ -69,7 +95,7 @@ transform: translateX(475px);
 	text-align: center;
 	transform: translateX(300px);
 	width: 850px;
-	height: 550px;
+	height: 650px;
 }
 
 .nametitle{
@@ -94,7 +120,7 @@ input.mail{
 
 textarea.comment{
 	width: 800px;
-	height: 235px;
+	height: 320px;
 }
 input.sub{
 	width: 500px;
