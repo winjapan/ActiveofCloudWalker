@@ -1,0 +1,29 @@
+html{
+display: block;
+}
+body{
+	background-image: url("/Users/wadamika/Desktop/HTMLOFFICIAL/use/クイズ背景re3.png");
+margin: auto;
+min-height:30;
+display: table;
+}
+
+.title{
+	text-align: center;
+	font-size: 50px;
+	background-color: skyblue;
+	font-weight: bold;
+}
+.intro{
+	text-align: center;
+}
+.score{
+	text-align: center;
+}
+
+input[type="button"]{
+	display: block;
+}
+
+
+

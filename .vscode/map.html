@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/favicon cc" href="/Users/wadamika/Desktop/HTMLOFFICIAL/use/favimap.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>位置共有サイト</title>
+</head>
+<body>
+	<script>
+	//ナビで現在情報を取得
+	navigator.geolocation.getCurrentPosition(successCallback,errorCallback);
+
+	//位置情報取得に成功した時の処理
+		function successCallback(position){
+			var gltext = "緯度" + position.coords.longitude + "<br>";
+			var gltext = "経度" + position.coords.longitude + "<br>";
+			var gltext = "高度" + position.coords.longitude + "<br>";
+			var gltext = "緯度・経度の誤差" + position.coords.longitude + "<br>";
+			var gltext = "高度の誤差" + position.coords.longitude + "<br>";
+			var gltext = "方角" + position.coords.longitude + "<br>";
+			var gltext = "速度" + position.coords.longitude + "<br>";
+	//gpsidにgltextを表示
+			document.getElementById("gpsspa").innerHTML = gltext;
+		}
+		//位置情報に失敗した時の処理
+		function errorCallback(error){
+			var errmsg = "";
+			switch(error.code){
+				case 1:
+					errmsg = "位置情報の利用が許可されていません";
+					break;
+					case 2:
+						errmsg = "デバイスの位置が判定できません";
+						break;
+						case 3:
+							errmsg ="タイムアウトしました";
+							break;
+			}
+				//gpsidにgltextを表示
+			document.getElementById("gpsspa").innerHTML = errmsg;
+		}
+		
+		</script>
+	<link rel="stylesheet" href="map.css">
+	
+	<div class="gps">
+		<p id="gpsspa">位置情報をここに共有します</p>
+	</div>
+	
+	<div class="maplink" style="text-align: center;">
+	<a href="https://goo.gl/maps/gkruFumK5jCBoxcp7">map</a>
+	</div>
+
+</body>
+</html>
